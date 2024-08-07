@@ -45,47 +45,35 @@ class homePage extends StatelessWidget {
             Wrap(
               children: [
               Container(
-                padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                margin: EdgeInsets.only(right: 5,left: 5),
+                padding: EdgeInsets.symmetric(vertical: 6,horizontal: 6),
+                margin: EdgeInsets.only(right: 3,left: 3),
                 child: MaterialButton(
                   height: 260,
-                  minWidth: 180,
+                  minWidth: 200,
                   color: Colors.green,
+                  
                   onPressed: (){},
                   child: Text('Capitan America',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
-
+                    
                   ),
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20),
                   ),
 
                 ),
               ),
                 Container(
-                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                  margin: EdgeInsets.only(right: 5,left: 5),
+                  padding: EdgeInsets.symmetric(vertical: 6,horizontal: 6),
+                  margin: EdgeInsets.only(right: 3,left: 3),
                   child: MaterialButton(
                     height: 260,
-                    minWidth: 180,
+                    minWidth: 200,
                     color: Colors.green,
-                    onPressed: (){},
-                    child: Text('hulk',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 20,
 
-                      ),
-                    ),
-
-                  ),
-                ),Container(
-                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                  margin: EdgeInsets.only(right: 5,left: 5),
-                  child: MaterialButton(
-                    height: 260,
-                    minWidth: 180,
-                    color: Colors.green,
                     onPressed: (){},
                     child: Text('Capitan America',
                       style: TextStyle(
@@ -94,15 +82,19 @@ class homePage extends StatelessWidget {
 
                       ),
                     ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
 
                   ),
                 ),Container(
-                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
-                  margin: EdgeInsets.only(right: 5,left: 5),
+                  padding: EdgeInsets.symmetric(vertical: 6,horizontal: 6),
+                  margin: EdgeInsets.only(right: 3,left: 3),
                   child: MaterialButton(
                     height: 260,
-                    minWidth: 180,
+                    minWidth: 200,
                     color: Colors.green,
+
                     onPressed: (){},
                     child: Text('Capitan America',
                       style: TextStyle(
@@ -110,11 +102,34 @@ class homePage extends StatelessWidget {
                         fontSize: 20,
 
                       ),
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+
+                  ),
+                ),Container(
+                  padding: EdgeInsets.symmetric(vertical: 6,horizontal: 6),
+                  margin: EdgeInsets.only(right: 3,left: 3),
+                  child: MaterialButton(
+                    height: 260,
+                    minWidth: 200,
+                    color: Colors.green,
+
+                    onPressed: (){},
+                    child: Text('Capitan America',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+
+                      ),
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(20),
                     ),
 
                   ),
                 ),
-
               ],
             ),
           ],
