@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
 class homePage extends StatelessWidget {
@@ -40,6 +41,81 @@ class homePage extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
+            ),
+            Wrap(
+              children: [
+              Container(
+                padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                margin: EdgeInsets.only(right: 5,left: 5),
+                child: MaterialButton(
+                  height: 260,
+                  minWidth: 180,
+                  color: Colors.green,
+                  onPressed: (){},
+                  child: Text('Capitan America',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+
+                  ),
+                  ),
+
+                ),
+              ),
+                Container(
+                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  margin: EdgeInsets.only(right: 5,left: 5),
+                  child: MaterialButton(
+                    height: 260,
+                    minWidth: 180,
+                    color: Colors.green,
+                    onPressed: (){},
+                    child: Text('hulk',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+
+                      ),
+                    ),
+
+                  ),
+                ),Container(
+                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  margin: EdgeInsets.only(right: 5,left: 5),
+                  child: MaterialButton(
+                    height: 260,
+                    minWidth: 180,
+                    color: Colors.green,
+                    onPressed: (){},
+                    child: Text('Capitan America',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+
+                      ),
+                    ),
+
+                  ),
+                ),Container(
+                  padding: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
+                  margin: EdgeInsets.only(right: 5,left: 5),
+                  child: MaterialButton(
+                    height: 260,
+                    minWidth: 180,
+                    color: Colors.green,
+                    onPressed: (){},
+                    child: Text('Capitan America',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+
+                      ),
+                    ),
+
+                  ),
+                ),
+
+              ],
             ),
           ],
         ),
