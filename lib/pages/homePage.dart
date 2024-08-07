@@ -1,4 +1,9 @@
+import 'dart:ui';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/painting.dart';
+import 'package:flutter/widgets.dart';
 
 class homePage extends StatelessWidget {
   @override
@@ -7,6 +12,7 @@ class homePage extends StatelessWidget {
       home:Scaffold(
         backgroundColor: Colors.white,
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             SizedBox(
            height: 45,
@@ -21,11 +27,19 @@ class homePage extends StatelessWidget {
               ),
             ),
             Container(
-              child: Image.asset('assets/image/ant man.jpg'),
-              height: 600,
-              width: 700,
-              padding: EdgeInsets.all(10),
+              width: double.infinity,
+              height: 305,
+              margin: EdgeInsets.only(right: 10,left: 10
 
+              ),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(30),
+                image: DecorationImage(
+                  image: AssetImage('assets/image/ant man.jpg',
+                  ),
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
           ],
         ),
