@@ -127,7 +127,7 @@ class _QuizState extends State<QuizState> {
           children: [
             Container(
               margin: EdgeInsets.all(5),
-              height: 250,
+              height: 240,
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
@@ -160,7 +160,7 @@ class _QuizState extends State<QuizState> {
             ),
             Container(
               margin: EdgeInsets.all(5),
-              height: 250,
+              height: 240,
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
@@ -192,7 +192,7 @@ class _QuizState extends State<QuizState> {
             ),
             Container(
               margin: EdgeInsets.all(5),
-              height: 250,
+              height: 240,
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
@@ -225,7 +225,7 @@ class _QuizState extends State<QuizState> {
             ),
             Container(
               margin: EdgeInsets.all(5),
-              height: 250,
+              height: 240,
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
