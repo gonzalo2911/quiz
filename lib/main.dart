@@ -115,6 +115,9 @@ class _QuizState extends State<QuizState> {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
+        Container(
+          child: Text('¿COMO SE LLAMA EL SUPERHEROE?',style: TextStyle(fontSize: 20,fontWeight: FontWeight.w600),),
+        ),
         ClipRRect(
           borderRadius: BorderRadius.circular(18),
           child: Image.asset(images[imagesnumber],
