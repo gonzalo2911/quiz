@@ -108,6 +108,7 @@ class _QuizState extends State<QuizState> {
   int answercas2 = 0;
   int answercas3 = 0;
   int answercas4 = 0;
+
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -127,7 +128,7 @@ class _QuizState extends State<QuizState> {
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.deepOrange,
 
                     padding: EdgeInsets.symmetric(horizontal: 52.0, vertical: 110.0),
                     shape: RoundedRectangleBorder(
@@ -160,7 +161,7 @@ class _QuizState extends State<QuizState> {
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.lightBlueAccent,
                     padding: EdgeInsets.symmetric(horizontal: 52.0, vertical: 110.0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20)
@@ -192,7 +193,7 @@ class _QuizState extends State<QuizState> {
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.yellowAccent,
                     padding: EdgeInsets.symmetric(horizontal: 52.0, vertical: 110.0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20)
@@ -225,7 +226,7 @@ class _QuizState extends State<QuizState> {
               width: 190,
               child: TextButton(
                   style: TextButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.lightGreenAccent,
                     padding: EdgeInsets.symmetric(horizontal: 52.0, vertical: 110.0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20)
@@ -267,15 +268,12 @@ class _QuizState extends State<QuizState> {
         Container(
 
           margin: EdgeInsets.all(5),
-          height: 30,
-          width: 100,
+          height: 40,
+          width: 120,
           child: TextButton(
               style: TextButton.styleFrom(
-                backgroundColor: Colors.blue,
-                padding: EdgeInsets.symmetric(horizontal: 5.0, vertical: 3.0),
-                shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20)
-                ),
+                backgroundColor: Colors.black,
+                padding: EdgeInsets.symmetric(horizontal: 5.0, vertical: 1.0),
                 elevation: 40,
               ),
               onPressed: () {
@@ -289,7 +287,7 @@ class _QuizState extends State<QuizState> {
               },
               child: Text('Next',
                 style: TextStyle(
-                    color: Colors.black,
+                    color: Colors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.w600),
               )
